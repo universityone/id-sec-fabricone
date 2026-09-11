@@ -1,0 +1,7 @@
+services:
+  worker:
+    volumes: !override
+      - ./data:/data
+      - ./certs:/certs
+      - ./custom-templates:/templates
+      - ./blueprints/organization:/blueprints/organization

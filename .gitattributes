@@ -1,0 +1,2 @@
+# FabricONE text files use LF consistently across Windows, WSL, and Linux.
+* text=auto eol=lf
