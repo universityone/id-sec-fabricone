@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.jceks
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Runtime / database material
+midpoint-home/
+runtime/
+backups/
+*.sql
+*.dump
+
+# Temporary files
+*.tmp
+*.log
